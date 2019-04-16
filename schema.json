@@ -1,88 +1,81 @@
 {
-    "definitions": {},
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "http://example.com/root.json",
-    "type": "object",
-    "title": "The Root Schema",
-    "required": [
-      "Kashrut Organizations"
-    ],
-    "properties": {
-      "Kashrut Organizations": {
-        "$id": "#/properties/Kashrut Organizations",
-        "type": "array",
-        "title": "The Kashrut organizations Schema",
-        "items": {
-          "$id": "#/properties/Kashrut Organizations/items",
-          "type": "object",
-          "title": "The Organization Schema",
-          "description": "One item per organization",
-          "default": null,
-          "required": [
-            "Organization Name",
-            "Short Name",
-            "Symbol",
-            "Rabbi",
-            "Website"
-          ],
-          "properties": {
-            "Organization Name": {
-              "$id": "#/properties/Kashrut Organizations/items/properties/Organization Name",
-              "type": "string",
-              "title": "The Organization name Schema",
-              "description": "The full name of the organization",
-              "default": "",
-              "examples": [
-                "Orthodox Union"
-              ],
-              "pattern": "^(.*)$"
-            },
-            "Short Name": {
-              "$id": "#/properties/Kashrut Organizations/items/properties/Short Name",
-              "type": "string",
-              "title": "The Short name Schema",
-              "description": "The shorthand name of the organization, as used in daily conversation",
-              "default": "",
-              "examples": [
-                "OU"
-              ],
-              "pattern": "^(.*)$"
-            },
-            "Symbol": {
-              "$id": "#/properties/Kashrut Organizations/items/properties/Symbol",
-              "type": "string",
-              "title": "The Symbol Schema",
-              "description": "The name of the image file in the /images directory. Order of preference: .svg, .png, .jpg",
-              "default": "",
-              "examples": [
-                "OU.svg"
-              ],
-              "pattern": "^(.*)$"
-            },
-            "Rabbi": {
-              "$id": "#/properties/Kashrut Organizations/items/properties/Rabbi",
-              "type": "string",
-              "title": "The Rabbi Schema",
-              "description": "The name of the head Rabbi of the organization",
-              "default": "",
-              "examples": [
-                "Rabbi Menachem Ganeck"
-              ],
-              "pattern": "^(.*)$"
-            },
-            "Website": {
-              "$id": "#/properties/Kashrut Organizations/items/properties/Website",
-              "type": "string",
-              "title": "The Website Schema",
-              "description": "Full URL to the website of the organization. Blank if non-existent.",
-              "default": "",
-              "examples": [
-                "https://oukosher.org/"
-              ],
-              "pattern": "^(.*)$"
-            }
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "Kashrut Organizations"
+  ],
+  "properties": {
+    "Kashrut Organizations": {
+      "type": "array",
+      "title": "The Kashrut organizations Schema",
+      "items": {
+        "type": "object",
+        "title": "The Organization Schema",
+        "description": "One item per organization",
+        "default": null,
+        "required": [
+          "Organization Name",
+          "Short Name",
+          "Symbol",
+          "Rabbi",
+          "Website"
+        ],
+        "properties": {
+          "Organization Name": {
+            "type": "string",
+            "title": "The Organization name Schema",
+            "description": "The full name of the organization",
+            "default": "",
+            "examples": [
+              "Orthodox Union"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "Short Name": {
+            "type": "string",
+            "title": "The Short name Schema",
+            "description": "The shorthand name of the organization, as used in daily conversation",
+            "default": "",
+            "examples": [
+              "OU"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "Symbol": {
+            "type": "string",
+            "title": "The Symbol Schema",
+            "description": "The name of the image file in the /images directory. Order of preference: .svg, .png, .jpg",
+            "default": "",
+            "examples": [
+              "OU.svg"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "Rabbi": {
+            "type": "string",
+            "title": "The Rabbi Schema",
+            "description": "The name of the head Rabbi of the organization",
+            "default": "",
+            "examples": [
+              "Rabbi Menachem Ganeck"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "Website": {
+            "type": "string",
+            "title": "The Website Schema",
+            "description": "Full URL to the website of the organization. Blank if non-existent.",
+            "default": "",
+            "examples": [
+              "https://oukosher.org/"
+            ],
+            "pattern": "^(.*)$"
           }
         }
       }
     }
   }
+}
