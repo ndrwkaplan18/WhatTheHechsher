@@ -5,7 +5,7 @@ A hechsher is a symbol denoting the kosher status of a food item. It is a rabbin
 
 Today, there are a lot of different hechsherim (plural of hechsher) from a number of different organizations. Some lists (such as the [Chicago Rabbinical Council, or CRC](http://www.crcweb.org/agency_list.php)) exist to point Jews to known "good hechshers", which follow acceptable practices according to their internal set of rules.
 
-On this GitHub project, we intend to list all known hechshers, their symbols, and some supporting information. We intend for this to help future efforts for data projects. The data is located in the [data/data.json](data/json) file.
+On this GitHub project, we intend to list all known hechshers, their symbols, and some supporting information. We intend for this to help future efforts for data projects. The data is located in the [data/data.json](data/data.json) file.
 
 ## Installation Instructions for Development
 - Requires [node.js](https://nodejs.org/en/download/)
