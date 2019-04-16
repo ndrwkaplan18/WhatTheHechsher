@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="400"
+   height="400"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <g
+     id="layer1">
+    <path
+       d="M 315 183.5 A 154 172.5 0 1 1  7,183.5 A 154 172.5 0 1 1  315 183.5 z"
+       transform="matrix(1.298701,0,0,1.15942,-9.090861,-12.75357)"
+       style="opacity:1;fill:white;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.45899999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1872" />
+    <path
+       d="M 330 178.5 A 154.5 166.5 0 1 1  21,178.5 A 154.5 166.5 0 1 1  330 178.5 z"
+       transform="matrix(1.169136,0,0,1.084873,-5.183368,6.350169)"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:black;stroke-width:34.39592743;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2760" />
+    <text
+       x="91.665092"
+       y="313.93768"
+       transform="scale(0.982493,1.017819)"
+       style="font-size:313.28573608px;font-style:normal;font-weight:bold;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial Black"
+       id="text5417"
+       xml:space="preserve"><tspan
+         x="91.665092"
+         y="313.93768"
+         style="font-style:normal;font-weight:bold;fill:black;fill-opacity:1;font-family:Arial"
+         id="tspan5419">U</tspan></text>
+  </g>
+</svg>
