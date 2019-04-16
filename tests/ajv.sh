@@ -1,2 +1,2 @@
 # ajv.sh
-npx ajv validate -s ./schema.json -d ./data.json
+npx ajv validate -s ./data/schema.json -d ./data/data.json
