@@ -13,7 +13,7 @@ On this GitHub project, we intend to list all known hechshers, their symbols, an
 - On commit and push, [husky](https://github.com/typicode/husky) will run [ajv-cli](https://github.com/jessedc/ajv-cli) to verify that data.json validates against schema.json
 
 ## Example
-For example, the most widely-known hechsher is the OU, or Orthodox Union. Their symbol is: <img src="/images/OU.svg" width="20px" height="20px" />. Their entry in the data.json filewould look like this:
+For example, the most widely-known hechsher is the OU, or Orthodox Union. Their symbol is: <img src="/data/images/OU.svg" width="20px" height="20px" />. Their entry in the data.json filewould look like this:
 
 ```
 {
